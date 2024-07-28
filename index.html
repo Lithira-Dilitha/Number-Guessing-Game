@@ -1,17 +1,32 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    <script src="app.js"></script>
-
-    <div>
-        <h1>Enter Number 2-10</h1>
-        <input  id="txtbox"  ="text">
-        <button onclick="genarateId ()" type="button">Click</button>
+    <link rel="stylesheet" href="stayle.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="card">
+      <h1>Enter Number Between 2 and 12</h1>
+      <h2 id="hint"></h2>
+      <input
+        id="txtbox"
+        placeholder="Enter You Guessing Number"
+        ="text"
+      /><br />
+      <button onclick="genarateId()" class="btn-guess" type="button">
+        Guess
+      </button>
+      <h2 id="status"></h2>
     </div>
-</body>
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+  </body>
 </html>

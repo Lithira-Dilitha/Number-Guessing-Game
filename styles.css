@@ -1,0 +1,75 @@
+.card {
+  position: absolute;
+  color: aliceblue;
+  font-family: "poppins", serif;
+  background-color: #3c94ba;
+  top: 30%;
+  left: 30%;
+  border-radius: 10px;
+  text-align: center;
+  width: 100%;
+  max-width: 600px;
+  overflow: hidden;
+
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.27);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.6px);
+  -webkit-backdrop-filter: blur(6.6px);
+  border: 1px solid rgba(255, 255, 255, 0.35);
+
+  .poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+}
+#txtbox {
+  text-align: center;
+  font-size: medium;
+  width: 300px;
+  height: 40px;
+  border-radius: 5px;
+  border: none;
+}
+#hint {
+  font-size: large;
+  font-style: italic;
+  .poppins-medium-italic {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: italic;
+  }
+}
+.btn-guess {
+  margin-top: 8px;
+  height: 50px;
+  width: 150px;
+  border: none;
+  border-radius: 8px;
+  background-color: #07214e;
+  color: white;
+  font-size: medium;
+  font-weight: bold;
+}
+.btn-guess:hover {
+  background-color: #123063;
+  cursor: pointer;
+}
+.hint {
+  font: bold;
+}
+h1 {
+  text-align: center;
+}
+h2 {
+  text-align: center;
+}
+body {
+  background-image: linear-gradient(
+    86.3deg,
+    rgba(0, 119, 182, 1) 3.6%,
+    rgba(8, 24, 68, 1) 87.6%
+  );
+}
